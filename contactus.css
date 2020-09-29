@@ -1,0 +1,49 @@
+body{
+    background-image:url("tent-5441144_640.jpg");
+    background-repeat:none;
+    background-size:cover; 
+    height:100%;
+}
+
+.container{
+    position:absolute;
+    top:40%;
+    left:50%;
+    -webkit-transform:translate(-40%,-30%);
+    transform:(-50%,-50%);
+}
+.sidenav{
+    background-image:url("fox-5042242_1920.jpg");
+    background-repeat:no-repeat;
+    height:100%;
+    width:250px;
+    position:fixed;
+    z-index:3;
+    top:0;
+    left:0;
+    background-color:gray;
+    overflow:hidden; 
+    padding-top:100px;
+    
+}
+span{
+    color:whitesmoke;
+}
+.sidenav a{
+    padding:30px 28px 8px 32px;
+    text-decoration:none;
+    font-size:25px;
+    color:gray;
+    display:block;
+}
+.sidenav a:hover{
+    color:#417
+}
+.sidenav .closebtn{
+    position:absolute;
+    color:black;
+    top:0;
+    right:25px;
+    font-size:40px;
+    margin-left:50px;
+}
