@@ -1,63 +1,93 @@
-body{
-    background-image:url("tent-5441144_640.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+body {
+  background-image: url("tent-5441144_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: whitesmoke;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  margin: 50px auto;
+  width: 600px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+div {
+  margin-top: 25px;
+}
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 20px;
+}
+input, textarea {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(189, 189, 189, 0.3);
+  width: 400px;
+  color: white;
+  vertical-align:top;
+}
+.button1 {
+  text-decoration:none;
+  border:none;
+  background: #417;
+  color:whitesmoke;
+  font-weight:100;
+  padding:10px;
+  transition:all 0.5 ease 0;
+  display:inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+
 
 }
-h1{
-    color: whitesmoke;
-    font-size:60px;
-    text-align:left;
-    padding-left:30%;
-    font-family:Arial, Helvetica, sans-serif;
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-40%, -30%);
+  transform: (-50%, -50%);
 }
-form{
-    margin:50px auto;
-    width:600px;
-    border-radius:10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+.sidenav {
+  background-image: url("fox-5042242_1920.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  overflow: hidden;
+  padding-top: 100px;
 }
-
-.container{
-    position:absolute;
-    top:40%;
-    left:50%;
-    -webkit-transform:translate(-40%,-30%);
-    transform:(-50%,-50%);
+span {
+  color: whitesmoke;
 }
-.sidenav{
-    background-image:url("fox-5042242_1920.jpg");
-    background-repeat:no-repeat;
-    height:100%;
-    width:250px;
-    position:fixed;
-    z-index:3;
-    top:0;
-    left:0;
-    background-color:gray;
-    overflow:hidden; 
-    padding-top:100px;
-    
+.sidenav a {
+  padding: 30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: gray;
+  display: block;
 }
-span{
-    color:whitesmoke;
+.sidenav a:hover {
+  color: #417;
 }
-.sidenav a{
-    padding:30px 28px 8px 32px;
-    text-decoration:none;
-    font-size:25px;
-    color:gray;
-    display:block;
-}
-.sidenav a:hover{
-    color:#417
-}
-.sidenav .closebtn{
-    position:absolute;
-    color:black;
-    top:0;
-    right:25px;
-    font-size:40px;
-    margin-left:50px;
+.sidenav .closebtn {
+  position: absolute;
+  color: black;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
 }
